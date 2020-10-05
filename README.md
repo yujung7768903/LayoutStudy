@@ -10,5 +10,5 @@
 - vertical : 수직 정렬
 
 #### weight - 가중치
-- ex)
+![image](https://user-images.githubusercontent.com/68562176/95116298-c6a7e680-0781-11eb-8856-7a65d9f36624.png)
 
