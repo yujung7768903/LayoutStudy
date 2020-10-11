@@ -3,9 +3,9 @@ package com.example.linear
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Relativelayout : AppCompatActivity() {
+class ConstraintLayout : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_relativelayout)
+        setContentView(R.layout.activity_constraint_layout)
     }
 }
