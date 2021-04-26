@@ -25,4 +25,32 @@ ex)
 ![image](https://user-images.githubusercontent.com/68562176/95116298-c6a7e680-0781-11eb-8856-7a65d9f36624.png)
 
 #### gravity - 정렬
+           
+2. Constraintlayout
+#### 특징
+- 복잡한 뷰를 그릴 때 한 층으로 간단하게 그릴 수 있음.
+- 화면 전환이 이루어졌을 때 그 비율을 유지한다.
+*주의할 점 : 제약을 3개 이상 걸어야함(=어딘가에 고정을 시켜야한다는 뜻)
 
+* constraint~~~
+
+|constraint~|설명|
+|------|---|
+|constraintStart|constraint를 주고 싶은 요소의 왼쪽 점|
+|constraintTop|constraint를 주고 싶은 요소의 위쪽 점|
+|constraintEnd|constraint를 주고 싶은 요소의 오른쪽 점|
+|constraintBottom|constraint를 주고 싶은 요소의 아래쪽 점|
+* to~Of
+
+|to~Of|설명|
+|------|---|
+|toStartOf="기준이 될 요소(ex:parent, id)"|기준이 되는 요소의 왼쪽 점|
+|toTopOf="기준이 될 요소"|기준이 되는 요소의 위쪽 점|
+|toEndOf="기준이 될 요소"|기준이 되는 요소의 오른쪽 점|
+|toBottomOf="기준이 될 요소"|기준이 되는 요소의 아래쪽 점|
+
+▼예시▼
+```
+app:layout_constraintStart_toStartOf="parent" 
+```
+-> 부모의 왼쪽 점과 요소의 왼쪽 점을 연결해라
